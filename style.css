@@ -1,0 +1,227 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;800;900&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+nav ul:nth-child(2){
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+nav ul li:hover{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    gap: 60px;
+    color: rgba(255, 104, 56, 1);
+}
+nav{
+    display: flex;
+    padding: 60px 139px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul:nth-child(2) button{
+    background-color: rgba(255, 104, 56, 1);
+    height: 50.41px;
+    width: 120px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+}
+.alltxt{
+    display: flex;
+    padding: 95px;
+    justify-content: space-between;
+    align-items: center;
+}
+.t1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 66px;
+    color: rgba(54, 56, 83, 1);
+    font-weight: 500;
+}
+.txt .t1 span{
+    font-family: 'Rubik', sans-serif;
+    font-size: 66px;
+    color: rgba(255, 122, 80, 1);
+    font-weight: 500;
+}
+.sp1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 66px;
+    color: rgba(255, 122, 80, 1);
+    font-weight: 500;
+}
+.sp1 span{
+    font-family: 'Rubik', sans-serif;
+    font-size: 66px;
+    color: rgba(54, 56, 83, 1);
+    font-weight: 500;
+}
+.t2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    color: rgba(54, 56, 83, 1);
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 23px;
+}
+.t3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    color: rgba(54, 56, 83, 1);
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.txt button{
+    height: 50.41px;
+    width: 163px;
+    background-color: rgba(255, 122, 80, 1);
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 1px 22px 40px 0px rgba(255, 104, 56, 0.19);
+    margin-top: 45px;
+}
+.sc2 .alltxt{
+    padding: 136px;
+}
+.sc2 .alltxt .txt .t1{
+    font-size: 36px;
+}
+.sc2 .alltxt .txt .t1 span{
+    font-size: 36px;
+}
+.sc2 .alltxt .txt .sp1{
+    font-size: 36px;
+}
+.sc2 .alltxt .txt .sp1 span{
+    font-size: 36px;
+}
+.t3{
+    margin-top: 95px;
+}
+.sc2 .txt button{
+    margin-top: 141px;
+    font-size: 20px;
+    border-radius: 30px 30px 1px 30px;
+    width: 176px;
+    height: 58px;
+}
+.sp2{
+    font-size: 36px;
+    color: rgba(255, 122, 80, 1);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+.t4{
+    font-size: 36px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+.txt1{
+    margin-top: 44px;
+    text-align: center;
+}
+.pz{
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+    color: rgba(54, 56, 83, 1);
+    font-weight: 400;
+    margin-top: 22px;
+    padding-left: 20px;
+
+}
+.btdv button{
+    background-color: rgba(255, 122, 80, 1);
+    border: none;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border-radius: 40px 40px 1px 40px;
+    padding: 10px 20px;
+}
+.time{
+    color: rgba(54, 56, 83, 1);
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 14px;
+    padding-left: 20px;
+}
+.btdv{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.imdf{
+    margin-top: 53px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.all2{
+    display: flex;
+    padding: 176px;
+    align-items: center;
+    justify-content: space-between;
+}
+.all2 .txt .t1{
+    font-size: 36px;
+}
+.all2 .txt .t1 span{
+    font-size: 36px;
+}
+.t5{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    margin-top: 59px;
+}
+.alltt{
+    text-align: center;
+}
+.color{
+    width: 1170px;
+    height: 312px;
+    background-color: rgba(255, 122, 80, 1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+.input input{
+    width: 838.5px;
+    height: 78px;
+    border-radius: 70px;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    border: none;
+    padding: 25px 43px;
+}
+.input{
+    display: flex;
+    align-items: end;
+    height: 160px;
+}
